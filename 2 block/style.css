@@ -1,0 +1,124 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-basis: 180%;
+}
+.section2 {
+    position: static;
+    padding: 10px;
+    width: 80%;
+    color: white;
+    background: rgba(28, 1, 49, 0.6);
+}
+.block-time {
+    display: flex;
+    flex-direction: column;
+}
+.block-date {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block-date-num {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.button1 {
+    background-color: rgba(0, 41, 223, 0.24);
+    width: 45%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.button2 {
+    background-color: rgba(255, 251, 0, 0.24);
+    width: 45%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.button3 {
+    background-color: rgba(174, 4, 180, 0.24);
+    width: 45%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+h3 {
+    display: flex;
+    justify-content: space-between;
+}
+h3::before {
+    content: "〈 ";
+}
+h3::after {
+    content: " 〉";
+}
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+.absolute1{
+    border-color: black;
+    border-left: inset 3px rgba(0, 41, 223, 0.6);
+    background: rgba(0, 41, 223, 0.24);
+        position: absolute;
+    top: 93px;
+    left: 80px;
+    width: 30%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.absolute2{
+    border-color: black;
+    border-left: inset 3px rgba(255, 251, 0, 0.603);
+    background: rgba(255, 251, 0, 0.24);
+    position: absolute;
+    top: 193px;
+    left: 80px;
+    width: 30%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.absolute3{
+    border-color: black;
+    border-left: inset 3px rgba(174, 4, 180, 0.603);
+    background: rgba(174, 4, 180, 0.24);
+    position: absolute;
+    top: 393px;
+    left: 80px;
+    width: 30%;
+    height: 102px;
+    display: flex;
+    align-items: center;
+}
+div div:hover {
+    background: radial-gradient(
+    ellipse at center,
+    rgb(172, 0, 0) 0%,
+    rgb(172, 0, 0) 70%,
+    rgba(0, 128, 172, 0) 70.3%
+    );
+}
+.image1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    left: 800px;
+}
+.image2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    left: 850px;
+}
