@@ -1,10 +1,10 @@
-.section1 {
+.section-planer {
     display: flex;
     flex-direction: column;
     padding: 10px;
     flex-basis: 180%;
 }
-.section2 {
+.section-calendar {
     position: static;
     padding: 10px;
     width: 80%;
@@ -25,21 +25,21 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.button1 {
+.button-home {
     background-color: rgba(0, 41, 223, 0.24);
     width: 45%;
     padding: 10px;
     margin-top: 10px;
     margin-left: 10px;
 }
-.button2 {
+.button-doctors {
     background-color: rgba(255, 251, 0, 0.24);
     width: 45%;
     padding: 10px;
     margin-top: 10px;
     margin-left: 10px;
 }
-.button3 {
+.button-study {
     background-color: rgba(174, 4, 180, 0.24);
     width: 45%;
     padding: 10px;
@@ -64,7 +64,7 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
-.absolute1{
+.absolute-blue {
     border-color: black;
     border-left: inset 3px rgba(0, 41, 223, 0.6);
     background: rgba(0, 41, 223, 0.24);
@@ -76,7 +76,7 @@ p {
     display: flex;
     align-items: center;
 }
-.absolute2{
+.absolute-yellow {
     border-color: black;
     border-left: inset 3px rgba(255, 251, 0, 0.603);
     background: rgba(255, 251, 0, 0.24);
@@ -88,7 +88,7 @@ p {
     display: flex;
     align-items: center;
 }
-.absolute3{
+.absolute-pink {
     border-color: black;
     border-left: inset 3px rgba(174, 4, 180, 0.603);
     background: rgba(174, 4, 180, 0.24);
@@ -108,14 +108,14 @@ div div:hover {
     rgba(0, 128, 172, 0) 70.3%
     );
 }
-.image1 {
+.image-loupe {
     width: 20px;
     height: 20px;
     position: absolute;
     top: 40px;
     left: 800px;
 }
-.image2 {
+.image-cube {
     width: 20px;
     height: 20px;
     position: absolute;
