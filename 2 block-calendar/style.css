@@ -9,7 +9,7 @@
     padding: 10px;
     width: 80%;
     color: white;
-    background: rgba(28, 1, 49, 0.6);
+    background: rgba(42, 46, 65, 0.7);
 }
 .block-time {
     display: flex;
@@ -26,21 +26,24 @@
     justify-content: space-between;
 }
 .button-home {
-    background-color: rgba(0, 41, 223, 0.24);
+    background: #8576ED;
+    border-radius: 12px;
     width: 45%;
     padding: 10px;
     margin-top: 10px;
     margin-left: 10px;
 }
 .button-doctors {
-    background-color: rgba(255, 251, 0, 0.24);
+    background: #F39946;
+    border-radius: 12px;
     width: 45%;
     padding: 10px;
     margin-top: 10px;
     margin-left: 10px;
 }
 .button-study {
-    background-color: rgba(174, 4, 180, 0.24);
+    background: #FF467E;
+    border-radius: 12px;
     width: 45%;
     padding: 10px;
     margin-top: 10px;
@@ -77,9 +80,9 @@ p:hover {
     color: red;
 }
 .absolute-blue {
-    border-color: black;
-    border-left: inset 3px rgba(0, 41, 223, 0.6);
-    background: rgba(0, 41, 223, 0.24);
+    border-color: #8576ED;
+    border-left: inset 3px #8576ED;
+    background: #8676ed5b;
         position: absolute;
     top: 93px;
     left: 80px;
@@ -89,9 +92,9 @@ p:hover {
     align-items: center;
 }
 .absolute-yellow {
-    border-color: black;
-    border-left: inset 3px rgba(255, 251, 0, 0.603);
-    background: rgba(255, 251, 0, 0.24);
+    border-color: #F39946;
+    border-left: inset 3px #F39946;
+    background: #f39a4652;
     position: absolute;
     top: 193px;
     left: 80px;
@@ -101,9 +104,9 @@ p:hover {
     align-items: center;
 }
 .absolute-pink {
-    border-color: black;
-    border-left: inset 3px rgba(174, 4, 180, 0.603);
-    background: rgba(174, 4, 180, 0.24);
+    border-color: #FF467E;
+    border-left: inset 3px #FF467E;
+    background: #ff467e4f;
     position: absolute;
     top: 393px;
     left: 80px;
