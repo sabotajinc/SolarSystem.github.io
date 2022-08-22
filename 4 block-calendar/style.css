@@ -27,6 +27,7 @@
 }
 .button-home {
     background: #8576ED;
+    border-color: #8576ED;
     border-radius: 12px;
     width: 45%;
     padding: 10px;
@@ -35,6 +36,7 @@
 }
 .button-doctors {
     background: #F39946;
+    border-color: #F39946;
     border-radius: 12px;
     width: 45%;
     padding: 10px;
@@ -43,6 +45,7 @@
 }
 .button-study {
     background: #FF467E;
+    border-color: #FF467E;
     border-radius: 12px;
     width: 45%;
     padding: 10px;
