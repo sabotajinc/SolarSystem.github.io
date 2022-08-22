@@ -113,12 +113,45 @@ div div:hover {
     height: 20px;
     position: absolute;
     top: 40px;
-    left: 800px;
-}
+    left: 30vw;
+    }
 .image-cube {
     width: 20px;
     height: 20px;
     position: absolute;
     top: 40px;
-    left: 850px;
+    left: 33vw;
 }
+@media (min-width: 2000px) {
+    .image-loupe {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 40px;
+        left: 28vw;
+    }
+    .image-cube {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 40px;
+        left: 30vw;
+    }
+}
+@media (max-width: 700px) {
+    .image-loupe {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 40px;
+        left: 200px;
+    }
+    .image-cube {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 40px;
+        left: 250px;
+    }
+}
+
