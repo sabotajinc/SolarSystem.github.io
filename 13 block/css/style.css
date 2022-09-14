@@ -20,8 +20,6 @@
     opacity: 0.6;
 }
 
-
-
 .button-home {
     background: #8576ED;
     border-color: #8576ED;
@@ -58,9 +56,20 @@ main {
     display: flex;
     flex-wrap: nowrap;
 }
+.block-head {
+    position: relative;
+}
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #243D6F;
+}
 h3 {
     
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 29px;
@@ -82,21 +91,20 @@ h3 {
 .top-date span:hover{
     color: red;
 }
-p {
-    display: flex;
-    flex-wrap: wrap;
-}
-p:hover {
+.block-time p:hover {
     color: red;
+}
+.block-planer {
+    position: relative;
 }
 .absolute-blue {
     border-color: #8576ED;
     border-left: inset 3px #8576ED;
     background: #8676ed5b;
-        position: absolute;
-    top: 93px;
+    position: absolute;
+    top: 10px;
     left: 80px;
-    width: 30%;
+    width: 46%;
     height: 52px;
     display: flex;
     align-items: center;
@@ -106,9 +114,9 @@ p:hover {
     border-left: inset 3px #F39946;
     background: #f39a4652;
     position: absolute;
-    top: 193px;
+    top: 110px;
     left: 80px;
-    width: 30%;
+    width: 46%;
     height: 52px;
     display: flex;
     align-items: center;
@@ -118,9 +126,9 @@ p:hover {
     border-left: inset 3px #FF467E;
     background: #ff467e4f;
     position: absolute;
-    top: 393px;
+    top: 315px;
     left: 80px;
-    width: 30%;
+    width: 46%;
     height: 102px;
     display: flex;
     align-items: center;
@@ -132,7 +140,7 @@ p:hover {
     position: absolute;
     top: 40px;
     left: 30vw;
-    }
+}
 .image-loupe:hover {
     opacity: 0.5;
 }
@@ -169,13 +177,13 @@ p:hover {
     }
 }
 @media (max-width: 900px) {
-    .section-calendar {
-        width: 120%;
+    main {
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 700px) {
     .section-calendar {
-        width: 170%;
+        width: 100%;
     }
     .image-loupe {
         width: 20px;
