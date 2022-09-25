@@ -9,7 +9,6 @@ function Slider (selector){
 
 }
 const sliders = new Slider('.motto');
-
 Slider.prototype.moveSlide = function (){
     this.button[0].addEventListener("click", function transformation(){
             return sliders.listOfSlides.style.transform = `translate(0%)`;
@@ -18,7 +17,5 @@ Slider.prototype.moveSlide = function (){
             return sliders.listOfSlides.style.transform = `translate(-100%)`;
         });
 };
-
-
 sliders.moveSlide();
 console.log( );
