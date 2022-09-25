@@ -1090,22 +1090,27 @@ body {
     width: 100%; 
     margin: 0 auto;
     position: relative;
+    
 }
-.excurs__carousel-list {
-    display: flex;
-    justify-content: center;
-      
-    list-style: none;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+.excurs__carousel-wrapper {
+    max-width: 1920px;
+    width: 100%; 
+    margin: 0 auto;
     -webkit-mask-image: linear-gradient(
         to right,
         transparent 0%, 
         rgba(0, 0, 0, 1.0) 20%,
         rgba(0, 0, 0, 1.0) 80%, 
         transparent 100%);
-        
+}
+.excurs__carousel-list {
+    display: flex;
+    justify-content: center;
+      
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: transform .6s linear 0s;
 }
 .excurs__carousel-list-item {
     max-width: 280px;
