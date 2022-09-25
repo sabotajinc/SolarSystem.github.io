@@ -263,7 +263,8 @@ body {
     aspect-ratio: 192/98;
 }
 .slider {
- overflow: hidden;
+    overflow: hidden;
+    position: relative;
 }
 .slider__slides {
     list-style: none;
