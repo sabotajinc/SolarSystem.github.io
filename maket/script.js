@@ -43,7 +43,7 @@ Carousel.prototype.moveCarousel = function (){
             trans += 10;
             return this.carouselList.style.transform = `translate(${trans}%)`;
         }
-    }, {'once': false});
+    });
 }
 const carousel = new Carousel('.excurs__carousel');
 carousel.moveCarousel();
