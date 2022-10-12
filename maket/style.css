@@ -167,6 +167,7 @@
 body {
     margin: 0;
     height: 100%;
+    overflow-x: hidden;
 }
 
 :root {
@@ -257,6 +258,7 @@ body {
 .header a:hover,
 .header a:focus {
     color: #88C558;
+    transition: 0.3s all ease;
 }
 .motto {
     width: 100%;
@@ -319,6 +321,7 @@ body {
 .slider__page:hover,
 .slider__page:focus {
     opacity: 1;
+    transition: 0.3s all ease;
 }
 .slider__page--current {
     flex-basis: 50px;
@@ -797,6 +800,7 @@ body {
 .projects__main-link:hover,
 .projects__main-link:focus {
     color: #000000;
+    transition: 0.3s all ease;
 }
 
 .projects__list {
@@ -862,6 +866,7 @@ body {
 
 .projects__item-link:hover .projects__back {
     opacity: 1;
+    transition: 0.3s all ease;
 }
 
 .projects__back-image {
@@ -971,6 +976,7 @@ body {
 }
 .team__item:hover .team__item-back{
     opacity: 1;
+    transition: 0.3s all ease;
 }
 .team__img {
     width: 100%;
@@ -1266,6 +1272,7 @@ body {
     border: 0 none;
 }
 .contacts__forms-btn button {
+    cursor: pointer;
     background: #A7CC4A;
     border-radius: 4px;
     width: 368px;
@@ -1345,6 +1352,7 @@ body {
 .footer a:hover,
 .footer a:focus {
     color: #88C558;
+    transition: 0.3s all ease;
 }
 main {
     display: flex;
