@@ -46,6 +46,7 @@ CrossGame.EVENTS = {
 CrossGame.prototype.startNewGame = function () {
     this.setInitialBoard();
     this.clearBoard();
+    this.deleteLine();
     this.dispatch(CrossGame.EVENTS.NEW_GAME);
 }
 
@@ -227,6 +228,7 @@ CrossGame.prototype.clearBoard = function () {
     this.$cells.forEach($rowCells => {
         $rowCells.forEach($cell => $cell.innerText = '')
     });
+    
 }
 
 CrossGame.prototype.createCross = function () {
@@ -263,6 +265,11 @@ CrossGame.prototype.createLine = function (x1, y1, x2, y2) {
     $svg.innerHTML = `<line class="line" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/>`;
 
     return $svg;
+}
+
+CrossGame.prototype.deleteLine = function () {
+    const $svg1 = document.querySelector('.cross__board-item-elem');
+    $svg1.remove();
 }
 
 CrossGame.prototype.setStatusRender = function () {
