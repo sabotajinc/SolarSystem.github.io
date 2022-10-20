@@ -1,4 +1,4 @@
-export class Determinant {
+class Determinant {
     constructor(selector) {
         this.$root = document.querySelector(selector);
         this.$table = this.$root.querySelector('table');
@@ -31,3 +31,6 @@ export class Determinant {
     }
 
 } 
+
+const determinant = new Determinant('.calc');
+console.log(determinant);
