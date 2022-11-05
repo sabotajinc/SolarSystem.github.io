@@ -9,7 +9,7 @@
 	--sides: 36;
 	--side-middle-big: 60;
 	--side-middle-small: 30;
-	--depth: 6500px;
+	--depth: 6550px;
 	--transition: .75s cubic-bezier(.075, .5, 0, 1)
 }
 
@@ -116,4 +116,18 @@ h1, h2, h3, h4 {
 }
 .soundbutton.paused {
 	opacity: .25;
+}
+@media (max-width: 500px) {
+	.frame p{
+		max-width: 55vw;
+	}
+	.text-right > *{
+		left: 40vw;
+	}
+	.text-left > *{
+		right: 20vw;
+	}
+	.frame_bg{
+		width: 140vw;
+	}
 }
